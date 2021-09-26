@@ -29,10 +29,18 @@ resources = {
     "milk": 200,
     "coffee": 100,
 }
-# drink_choice = input("What would you like? (espresso/latte/cappucino)")
-# off = False
+def resource_report():
+    for resource, amount in resources.items():
+        print(f"There is {amount} of {resource} remaining")
 
 
+def resource_checker(drink_choice):
+
+drink_choice = input("What would you like? (espresso/latte/cappucino): ")
+
+off = False
+
+resource_report()
 
 # TODO 1: Prompt user by asking "What would you like? (espresso/latte/cappucino)"
 # TODO 2: Turn off the Coffee Machine by entering "off" to the prompt
