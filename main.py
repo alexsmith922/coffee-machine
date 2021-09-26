@@ -29,11 +29,12 @@ resources = {
     "milk": 200,
     "coffee": 100,
 }
+# drink_choice = input("What would you like? (espresso/latte/cappucino)")
+# off = False
+
 
 
 # TODO 1: Prompt user by asking "What would you like? (espresso/latte/cappucino)"
-# drink_choice = input("What would you like? (espresso/latte/cappucino)")
-off = False
 # TODO 2: Turn off the Coffee Machine by entering "off" to the prompt
 # TODO 3: Print report that generate and shows current resources
 
